@@ -1,0 +1,24 @@
+main() {
+    real broj1, broj2, broj3;
+
+    broj1 = 45.21;
+    broj2 = 27.33;
+
+    broj3 = broj1 * broj2;
+    
+    {
+        char kar1, kar2, kar3;
+        char string[3];
+
+        kar1 = 'r';
+        kar2 = 'a';
+        kar3 = 'f';
+
+        string[0] = kar1;
+        string[1] = kar2;
+        string[2] = kar3;
+    }
+
+    write(broj3);
+    write(string);
+}

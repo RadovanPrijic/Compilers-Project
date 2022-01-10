@@ -1,0 +1,12 @@
+main() {
+    char niz[5];
+
+    niz[0] = 'a';
+    niz[1] = 'b';
+    niz[2] = 'c';
+    niz[3] = 'd';
+    niz[4] = 'e';
+
+    for(char karakter in niz)
+        write(karakter);
+}

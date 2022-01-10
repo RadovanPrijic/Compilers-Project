@@ -1,0 +1,18 @@
+main() {
+    char string[200];
+
+    for(char karakter in string)
+        write('a');
+
+    {
+        int broj1, broj2;
+        int rezultat;
+
+        broj1 = 10;
+        broj2 = 10;
+
+        rezultat = broj1 * broj2;
+
+        write(rezultat);
+    }
+}

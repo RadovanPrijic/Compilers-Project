@@ -1,0 +1,9 @@
+main() {
+    int rezultat1, rezultat2, rezultat3;
+
+    rezultat1 = 5 * 10 / 2;
+    rezultat2 = 50 + 420 / 2;
+    rezultat3 = 6 + 7 + 19 - 29;
+
+    write(rezultat1, rezultat2, rezultat3);
+}

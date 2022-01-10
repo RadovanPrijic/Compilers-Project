@@ -1,0 +1,12 @@
+main() {
+    real broj1, broj2, broj3;
+
+    broj1 = 110.22;
+    broj2 = 33.56;
+    broj3 = 78.59;
+
+    broj1 = broj2 + broj3;
+    broj2 = broj1 - broj3;
+    broj3 = broj1 * broj2;
+    broj1 = broj3 / broj2;
+}

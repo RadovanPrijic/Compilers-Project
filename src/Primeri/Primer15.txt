@@ -1,0 +1,10 @@
+main() {
+    real nr1, nr2, nr3, nr4;
+
+    nr1 = 344.23E+43;
+    nr2 = 23.44;
+    nr3 = 443.99E-22;
+    nr4 = 90.82;
+
+    read(nr1, nr2, nr3, nr4);
+}

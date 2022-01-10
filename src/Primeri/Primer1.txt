@@ -1,0 +1,13 @@
+main() {
+    int binarniBroj;
+    int oktalniBroj;
+    int decimalniBroj;
+    int heksadecimalniBroj;
+
+    binarniBroj = 2#101011101;
+    oktalniBroj = 8#743;
+    decimalniBroj = 10#1590;
+    decimalniBroj = 100;
+    heksadecimalniBroj = 16#AF;
+    heksadecimalniBroj = #2E5;
+}

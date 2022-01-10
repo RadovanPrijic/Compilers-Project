@@ -1,0 +1,21 @@
+main() {
+    int broj;
+    broj = 2#101010;
+
+    write(broj);
+
+    {
+        real realanBroj;
+        realanBroj = 24.332E+22;
+
+        write(realanBroj);
+
+        {
+            char karakter;
+            karakter = '0';
+
+            write(karakter);
+
+        }
+    }
+}

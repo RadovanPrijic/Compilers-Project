@@ -1,0 +1,15 @@
+main() {
+    int niz[4];
+    int broj;
+    int i;
+
+    broj = 0;
+    niz[0] = 2;
+    niz[1] = 4;
+    niz[2] = 6;
+    niz[3] = 8;
+
+    for(int br in niz)
+        broj = (broj + br);
+        write(broj);
+}

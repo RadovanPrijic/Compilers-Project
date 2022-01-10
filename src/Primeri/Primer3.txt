@@ -1,0 +1,11 @@
+main() {
+    char karakter1;
+    char karakter2;
+    char karakter3;
+    char karakter4;
+
+    karakter1 = 'a';
+    karakter2 = '9';
+    karakter3 = '/';
+    karakter4 = '`';
+}

@@ -1,0 +1,10 @@
+main() {
+    int br1, br2, br3;
+    int rezultat;
+
+    br1 = 1;
+    br2 = 2;
+    br3 = 3;
+
+    rezultat = br1 * 100 + 900 / br2 - 90 / br3;
+}

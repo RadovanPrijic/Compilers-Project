@@ -1,0 +1,24 @@
+main() {
+    int broj, niz[5];
+
+    broj = 0;
+
+    niz[0] = 2;
+    niz[1] = 4;
+    niz[2] = 6;
+    niz[3] = 8;
+    niz[4] = 10;
+
+    for(int i in niz)
+        {
+            char karakter;
+
+            broj = (broj + 10);
+            broj = (broj * i);
+            karakter = i;
+
+            read(karakter);
+        }
+
+    write(broj);
+}

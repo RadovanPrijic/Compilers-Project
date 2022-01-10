@@ -1,0 +1,11 @@
+main() {
+    real realanBroj1;
+    real realanBroj2;
+    real realanBroj3;
+    real realanBroj4;
+
+    realanBroj1 = 34.323E+232;
+    realanBroj2 = 34.323E-232;
+    realanBroj3 = 454.67;
+    realanBroj4 = 3232.;
+}

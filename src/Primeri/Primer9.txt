@@ -1,0 +1,11 @@
+main() {
+    int broj1, broj2, broj3, broj4;
+    int rezultat;
+
+    broj1 = 10;
+    broj2 = 5;
+    broj3 = 8;
+    broj4 = 12;
+
+    rezultat = broj1 * broj2 + 100 / (broj2 + broj3) - 8 * (broj1 / broj2);
+}

@@ -1,0 +1,10 @@
+main() {
+    int niz[3];
+
+    niz[0] = 1;
+    niz[1] = 2;
+    niz[2] = 3;
+
+    for(int broj in niz)
+        read(broj);
+}

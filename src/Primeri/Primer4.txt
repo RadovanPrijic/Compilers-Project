@@ -1,0 +1,10 @@
+main() {
+    int broj1;
+    int broj2;
+    int rezultat;
+
+    broj1 = 50;
+    broj2 = 25;
+    rezultat = broj1 + broj2;
+    write(rezultat);
+}

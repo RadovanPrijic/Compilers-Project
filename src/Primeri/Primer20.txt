@@ -1,0 +1,10 @@
+main() {
+    char kar1, kar2, kar3, kar4;
+
+    kar1 = 'm';
+    kar2 = 'e';
+    kar3 = 't';
+    kar4 = 'a';
+
+    read(kar1, kar2, kar3, kar4);
+}

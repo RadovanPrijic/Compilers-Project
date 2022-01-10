@@ -1,0 +1,11 @@
+main() {
+    int binaryNr;
+    int octalNr;
+    int hexadecimalNr;
+
+    binaryNr = 2#0101011;
+    octalNr = 8#657;
+    hexadecimalNr = #33F;
+
+    write(binaryNr, octalNr, hexadecimalNr);
+}
