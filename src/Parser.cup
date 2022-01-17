@@ -7,10 +7,14 @@ parser code {:
    
    public static void main( String[] args ) {
       try {
-		   FileReader file = new FileReader( args[0] );
-		   Scanner scanner = new Lexer( file );
-		   Parser parser = new Parser( scanner );
-		   parser.debug_parse();
+         for(int i = 0; i < args.length; i++){
+            System.out.println("Parsiranje primera " + (i+1) + "\n");
+            FileReader file = new FileReader(args[i]);
+		      Scanner scanner = new Lexer(file);
+		      Parser parser = new Parser(scanner);
+		      parser.parse();
+            System.out.println("-------------------------------------------------------------");
+         }
 	  }
 	  catch( Exception e ) {
 		   System.out.println(e);
